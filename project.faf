@@ -1,0 +1,38 @@
+# Hand & Body Clinic: Editorial Luxury Architecture
+# Lead Architect: Abdelrahman (Medical Workflow Architect)
+# Persona: Safety-First | Luxury-Focused | Human-in-the-Loop
+
+<core_context>
+  project: "Hand & Body Clinic Portal"
+  vision: "An elite, 3D-integrated 'Ascension' experience for high-ticket surgical bookings."
+  aesthetic: "Editorial Luxury (Sand-Peach, Deep-Espresso, Glass-White)"
+  motion: "Antigravity (Ethereal, Weightless, Precise)"
+</core_context>
+
+<tech_stack>
+  frontend: "Next.js 14+ (App Router), TypeScript"
+  styling: "Vanilla CSS, Custom Shaders (GLSL)"
+  animation: "GSAP, ScrollTrigger, R3F (React Three Fiber)"
+  backend: "Supabase (Auth, RLS, Realtime)"
+  automation: "Direct Edge Functions (No n8n)"
+</tech_stack>
+
+<security_gates>
+  GATE_1: "Human-in-the-Loop (HIL) - AI forbidden from confirming payments."
+  GATE_2: "Manual Verification - Admin must approve bookings after WhatsApp receipt upload."
+  GATE_3: "Auto-Cleanup - PENDING slots release after 30 minutes via pg_cron."
+</security_gates>
+
+<design_tokens>
+  primary: "#F5E6D3 (Sand-Peach)"
+  secondary: "#2D1E17 (Deep-Espresso)"
+  glass: "rgba(255, 255, 255, 0.1)"
+  bezier: "cubic-bezier(0.2, 1, 0.3, 1)"
+</design_tokens>
+
+<workflow_milestones>
+  1: "Logo Refinement (Vector Perfection & 3D Prep) - [EXECUTION READY]"
+  2: "Ascension Engine (3D Hero & Scroll Choreography) - [EXECUTION READY]"
+  3: "HIL Admin Portal (MFA Verification) - [DEFERRED]"
+  4: "Edge Function Sync (Supabase -> Telegram -> GCal) - [EXECUTION READY]"
+</workflow_milestones>
